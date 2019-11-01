@@ -11,3 +11,9 @@ logging.pattern.file: "%clr(%d{yyyy-MM-dd HH:mm:ss.SSS}){faint} %clr(%5p) %clr($
   
   
 spring.cloud.config.uri: http://spring-cloud-config-demo
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
