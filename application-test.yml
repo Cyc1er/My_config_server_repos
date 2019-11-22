@@ -1,5 +1,8 @@
 testString: ok
 
+server:
+  port: 11110
+
 eureka: 
   instance:
     instance-id: ${spring.application.name}:${server.port}
