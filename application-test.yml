@@ -1,4 +1,4 @@
-testString: ok
+testString: "test -> ok"
 
 server:
   port: 11110
