@@ -1,10 +1,8 @@
 spring:
- # profiles:
- # - service1
   application:
     name: microservice-provider-demo
     
-switchover: false
+switchover: ture
     
 server:
   port: 11011
