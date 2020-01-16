@@ -4,7 +4,7 @@ spring:
   application:
     name: microservice-provider-demo
     
-switchover: true
+switchover: false
     
 server:
   port: 11011
