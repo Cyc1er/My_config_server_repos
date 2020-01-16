@@ -2,7 +2,7 @@ spring:
   application:
     name: microservice-provider-demo
     
-switchover: ture
+switchover: true
     
 server:
   port: 11011
